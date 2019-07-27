@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import django_heroku
 import os
 import dj_database_url
-import psycopg2
+
 
 
 
@@ -32,7 +32,7 @@ SECRET_KEY = 'mhha42o11zi!f_%grkv5(^%*2&6vzhxa8b=!%63-mt&=se@i#k'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = [ ]
 # Application definition
 
 INSTALLED_APPS = [
